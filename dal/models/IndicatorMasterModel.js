@@ -33,7 +33,7 @@ const { DataTypes } = require('sequelize');
 const sequelize = require('../../config/database'); // Adjust the path as needed
 
 const IndicatorMasterModel = sequelize.define('IndicatorMasterModel', {
-  id: {
+  indicator_id: {
     type: DataTypes.INTEGER,
     primaryKey: true,
     autoIncrement: true,

@@ -394,7 +394,7 @@ router.get('/indicatorParameters', getIndicatorParameters);
           await StrategyIndicator.create({
             strategy_id: StrategyID,
             user_id: user_id,
-            indicator_id: indicator.id,
+            indicator_id: indicator.indicator_id,
             param_name: param.param_name,
             param_value: param.param_value,
             created_by: created_by,
